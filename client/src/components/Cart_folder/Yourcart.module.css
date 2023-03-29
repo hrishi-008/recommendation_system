@@ -1,0 +1,29 @@
+.info {
+    margin: 30px 30px 15px 0;
+    padding: 30px;
+  }
+  
+  .buttonRow {
+    margin-top: 80px;
+  }
+
+  .item {
+    background: #fafdff;
+    /* border: 2px solid red; */
+  }
+
+  .buttonRow {
+    margin-top: 80px;
+  }
+
+  .divi{
+    margin: 10px 30px;
+    height: 500px;
+    
+    /* border: 2px solid red; */
+  }
+
+  .divi img{
+    max-width: 100%;
+    height: 90%;
+  }
