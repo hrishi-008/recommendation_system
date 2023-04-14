@@ -53,10 +53,10 @@ app.get("/productDetails/:productID", (req, res) => {
 });
 
 app.get("/recommendInCart/:productID", (req, res) => {
-  const pd = req.params.productID.charAt(0);
+  const pd = req.params.Price;
 
   console.log(pd);
-  const query = `SELECT * FROM productlist WHERE Pid like '${pd}%'`;
+  const query = `SELECT * FROM productlist WHERE Price > '${pd}'`;
   connection.connect((err) => {
     if (err) {
       console.log(err);
